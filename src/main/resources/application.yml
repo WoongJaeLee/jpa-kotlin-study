@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: local
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    jdbc: 'OFF'
+    jdbc.sqltiming: DEBUG
+    jdbc.resultsettable: DEBUG

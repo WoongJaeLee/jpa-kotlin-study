@@ -6,6 +6,7 @@
 
 ### 학습 계획
 - 매 주 주말 약 3개의 강의 분량(3~4시간) 정리 
+- https://spring.io/guides/tutorials/spring-boot-kotlin/ 가이드
 
 ### 최종 결과물
 - 실무하면서 JPA 놓친 부분 있나 점검
