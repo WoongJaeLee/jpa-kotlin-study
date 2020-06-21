@@ -1,11 +1,19 @@
 package com.jpastudy.jpakotlinstudy.entity
 
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
+import Order
+import javax.persistence.*
 
 @Entity
 class Member(
-    @Id @GeneratedValue var id: Long,
-    var name: String
+    @Id @GeneratedValue
+    @Column(name = "member_id")
+    var id: Long,
+
+    var name: String,
+
+    @Embedded
+    var address: Address,
+
+    @OneToMany(mappedBy = "member")
+    var orders: MutableList<Order>
 )
