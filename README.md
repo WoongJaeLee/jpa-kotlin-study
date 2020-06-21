@@ -18,4 +18,5 @@
 - 2020/06/06 
     - Kotlin + Spring boot + JPA + H2 setting
     - Default member entity add
-    - 
+- 2020/06/21
+    - entity 정의 및 맵핑, 테이블 생성 완료 
